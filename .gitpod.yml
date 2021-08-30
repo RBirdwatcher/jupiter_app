@@ -4,9 +4,10 @@ tasks:
     command: python3 -m pip install numpy
   - name: install pandas
     command: python3 -m pip install pandas
-    
+
 vscode:
   extensions:
     - ms-python.python
     - github.vscode-pull-request-github
     - vscode.ipynb
+    - grapecity.gc-excelviewer
